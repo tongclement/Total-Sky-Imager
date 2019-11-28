@@ -17,3 +17,5 @@ class pixel:
             True = Cloud
             False = Clear
         '''
+
+#random,to be deleated
