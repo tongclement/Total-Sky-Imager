@@ -1,2 +1,4 @@
 Django (pip install Django)
 djangorestframework(pip install djangorestframework)
+openCV (pip install opencv-python)
+
