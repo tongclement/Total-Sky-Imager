@@ -16,8 +16,7 @@ def imgprocess(imgpath):
     for x in range(img.shape[0]):
         for y in range(img.shape[1]):
             for z in range(3):
-                if (img[x,y,z]>=mask[z]):
-                    masked+=1
+                if (img[x,y,z]>=mask[z]):  masked+=1
     return masked
 
 print(imgprocess('asc_hksm_h12m50-cropped.jpg'))
