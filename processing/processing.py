@@ -15,12 +15,8 @@ def imgprocess(imgpath):
     #print(img.shape[2])
     for x in range(img.shape[0]):
         for y in range(img.shape[1]):
-            pixel=img[x,y] #pixel will be [red,green,blue]
-            #print(pixel)
             for z in range(3):
-                #print(pixel[x])
-                #print(mask[x])
-                if (pixel[z]>=mask[z]):
+                if (img[x,y,z]>=mask[z]):
                     masked+=1
     return masked
 
