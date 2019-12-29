@@ -20,4 +20,6 @@ def imgprocess(imgpath):
             masked+=(currentloop/img.shape[2])
     return masked/(img.shape[0]*img.shape[1])
 
-print(imgprocess('asc_hksm_h12m50-cropped.jpg'))
+
+#for testing ------- ---------------------------
+#print(imgprocess('asc_hksm_h12m50-cropped.jpg'))
