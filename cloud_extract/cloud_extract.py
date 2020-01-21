@@ -3,6 +3,7 @@
 
 import cv2
 
+#img = cv2.imread('asc_hksm_h12m50-cropped.jpg')
 img = cv2.imread('asc_hksm_h12m50-cropped.jpg')
 
 #img.shape
