@@ -12,5 +12,9 @@ class Process:
         return self.ccover
 
 #testing=Process('asc_hksm_h12m50-cropped.jpg')
-testing=Process('white2.jpg')
-print(testing.calc_ccover())
+testing=Process('test_offical.jpg')
+testing2=Process('test_white2.jpg')
+testing3=Process('test_black.png')
+print(float(testing.calc_ccover())*100)
+print(testing2.calc_ccover())
+print(testing3.calc_ccover())
