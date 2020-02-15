@@ -8,7 +8,7 @@ class Process:
         return self.imgpath
     def calc_ccover(self):
         import processing
-        self.ccover=processing.imgprocess(self.imgpath)
+        self.ccover= processing.imgprocess(self.imgpath)
         return self.ccover
     def annotate(self,pixel,color):
         '''
