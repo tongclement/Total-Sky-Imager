@@ -10,6 +10,14 @@ class Process:
         import processing
         self.ccover=processing.imgprocess(self.imgpath)
         return self.ccover
+    def annotate(self,pixel,color):
+        '''
+        :param pixel: [x,y] (x and y value stored in a list)
+        :param color: [r,g,b] (r,g,b stored in a list)
+        :return: None
+        '''
+
+
 
 #testing=Process('asc_hksm_h12m50-cropped.jpg')
 testing=Process('test_offical.jpg')
@@ -18,3 +26,5 @@ testing3=Process('test_black.png')
 print(float(testing.calc_ccover())*100)
 print(testing2.calc_ccover())
 print(testing3.calc_ccover())
+
+
