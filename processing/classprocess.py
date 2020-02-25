@@ -20,7 +20,6 @@ class Process:
         :return: None
         '''
         #from .annotate import annotate
-
         self.calc_ccover() #making sure this function is runned beforehand since data from this is needed
         print(self.calc_ccover())
         print(self.cloudpixels)
@@ -46,11 +45,23 @@ class Process:
         cv2.imshow('image',imager)
         print('ended')
         return imager
+#=======
+       # import annotate
+        #import moduletest
+       # image = cv2.imread(self.imgpath, 1)
+       # color = [92,209,255]
+       # for x in range(0, 100):
+       #     for y in range(0, 100):
+       #         #testing.annotate([x, y], [92, 209, 255])
+       #          image = annotate.annotate(image, color[0], color[1], color[2], x, y)
+       # return image
+#>>>>>>># master
 
 
 
 
 #testing=Process('asc_hksm_h12m50-cropped.jpg')
+
 #testing=Process('test_offical.jpg')
 testing = Process('test_white2.jpg')
 #testing2=Process('test_white2.jpg')
@@ -70,5 +81,14 @@ print('bequick')
 time.sleep(60.0)
 print('bequick')
 ##cv2.waitKey(0)
+
+#=======
+#newimg = testing.annotate([0,0],[92,209,255])
+#cv2.imshow('image', newimg)
+#import time
+#time.sleep(60.0)
+#print('bequick')
+#cv2.waitKey(0)
+#>>>>>>> master
 cv2.destroyAllWindows()
 
