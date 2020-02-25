@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="820589a8-4009-428e-99d4-6e09ed03734f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Total Sky Imager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/.idea/AndroidDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/androidTest/java/com/example/androidclientpythonupload/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/java/com/example/androidclientpythonupload/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/app/src/test/java/com/example/androidclientpythonupload/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/Android App/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/FaceDetectBackendProductionV1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/face_detect_cascade.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/facedetectbackend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/2265090d162442a0b2a818e23ae128e8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/25e89ed10e2846c697def21d5208657e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/303c5caef9304e7ba56e1889ef64f0a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/34cc5677f533444994ac50b1d78db2c9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/3eb403d7e2154361b95bff84a7ec37b6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/4ad097e6ab7e4be3aa035844ca8f10a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/63ac2211fe6a4861b1485f90ad647a92.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/99a2574d62174364a44f5618f60e522e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/b2d405be3062492dbe2b59f0b0fbc8b0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/c8c71a18c5f6435293cabce246a17c56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/cf726cfbf00a4f68ab47cc2932e00a7f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/d4707f7ef96345eba65fd4d6b5eac564.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/da750283c2db400e9f510b0eb43b62a7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/e38648e3536e4eb9954ce207b21f2b7c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/f67a34c17da9431692da1a2184bb507b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AndroidDemo/static/test1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ProgressRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/edwardapp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProgressRequestBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/camera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/apiapi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/apiapi/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/apiapi/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/apiapi/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/apiapi/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/apiapi/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/apiapi/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/classprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/piapisimple/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/piapisimple/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/piapisimple/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/piapisimple/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../piapi/piapisimple/processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/TaiMoShanMixedLand.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/TaiMoShanMixedLandLowRes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/TaiMoShanMixedLandSmallSky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/annotate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/annotate_testbed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/cv2viewimage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/densityplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/sampleimages/Blue sky vs White Clouds/Blueskyvswhiteclouds annotated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/sampleimages/Blue sky vs White Clouds/Blueskyvswhiteclouds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/sampleimages/Blue sky vs White Clouds/bluewhitecropped.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/sampleimages/Clear/clear1plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/sampleimages/Clear/clear2marginal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/sampleimages/Clear/cleardensityplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/sampleimages/Clear/cleardensityplotpano.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/sampleimages/Clear/clearplotrgbbatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/sampleimages/High/highdensityplotbatchrgb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/sampleimages/Low/correcttdensityplotbatchrgb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/sampleimages/flares/flaresplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/sampleimages/flares/flaresplotbatch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/sampleimages/sun/sunrgbbatchplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/scattergraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/test_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/test_offical.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/test_white2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../processing/z_astrotest1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api/TSIapi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../api/TSIapi/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud_extract/cloud_extract.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud_extract/cloud_extract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processing/classprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/../processing/classprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processing/processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../processing/processing.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="946">
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/ProgressRequestBody.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/edwardapp.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activity_camera.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/activity_results.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/camera.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6112" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MainActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/edwardapp.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+        <option value="$PROJECT_DIR$/.idea/ProgressRequestBody.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="849" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="edwardapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edwardapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="edwardapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="edwardapp" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.idea" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="820589a8-4009-428e-99d4-6e09ed03734f" name="Default Changelist" comment="" />
+      <created>1582017613413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582017613413</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32956153" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Resources Explorer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Team" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" visible="true" weight="0.32972974" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/ProgressRequestBody.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/edwardapp.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity_camera.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/activity_results.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6112" />
+      </provider>
+    </entry>
+  </component>
+</project>
