@@ -2,38 +2,70 @@ class Process:
     def __init__(self,imgpath): #image path, cloud cover
         self.imgpath=imgpath #imagepath
         self.ccover=int(0) #cloudcover
+        self.cloudpixels = []
     def __str__(self):
         return self.ccover
     def get_imgpath(self):
         return self.imgpath
     def calc_ccover(self):
         import processing
-        self.ccover= processing.imgprocess(self.imgpath)
+        processed = processing.imgprocess(self.imgpath) # list [ cloud cover, [[x1,y1],[x2,y2],...]
+        self.ccover= processed[0]
+        self.cloudpixels = processed[1] #reading the returned list from 1 to end
         return self.ccover
-    def annotate(self,pixel,color):
+    def annotate(self):
         '''
         :param pixel: [x,y] (x and y value stored in a list)
         :param color: [r,g,b] (r,g,b stored in a list)
         :return: None
         '''
         #from .annotate import annotate
+        self.calc_ccover() #making sure this function is runned beforehand since data from this is needed
+        print(self.calc_ccover())
+        print(self.cloudpixels)
         import annotate
         #import moduletest
         image = cv2.imread(self.imgpath, 1)
-        color = [92,209,255]
-        for x in range(0, 100):
-            for y in range(0, 100):
+        color = [0,0,255]
+
+        print('arriveds')
+        print(len(self.cloudpixels
+                  ))
+        imager = image
+        for character in self.cloudpixels:
+            print('working')
+            x = character[0]
+            print(x)
+            y = character[1]
+            imager = annotate.annotate(imager, color[0], color[1], color[2], x, y)
+            print(image == imager)
+        #for x in range(0, 100):
+         #   for y in range(0, 100):
                 #testing.annotate([x, y], [92, 209, 255])
-                 image = annotate.annotate(image, color[0], color[1], color[2], x, y)
-        return image
+        cv2.imshow('image',imager)
+        print('ended')
+        return imager
+#=======
+       # import annotate
+        #import moduletest
+       # image = cv2.imread(self.imgpath, 1)
+       # color = [92,209,255]
+       # for x in range(0, 100):
+       #     for y in range(0, 100):
+       #         #testing.annotate([x, y], [92, 209, 255])
+       #          image = annotate.annotate(image, color[0], color[1], color[2], x, y)
+       # return image
+#>>>>>>># master
 
 
 
 
 #testing=Process('asc_hksm_h12m50-cropped.jpg')
-testing=Process('test_offical.jpg')
-testing2=Process('test_white2.jpg')
-testing3=Process('test_black.png')
+
+#testing=Process('test_offical.jpg')
+testing = Process('test_white2.jpg')
+#testing2=Process('test_white2.jpg')
+#testing3=Process('test_black.png')
 #print(float(testing.calc_ccover())*100)
 #print(testing2.calc_ccover())
 #print(testing3.calc_ccover())
@@ -41,11 +73,22 @@ testing3=Process('test_black.png')
 #     for y in range(0,100):
 #         testing.annotate([x,y],[92,209,255])
 import cv2
-newimg = testing.annotate([0,0],[92,209,255])
+#print(testing.calc_ccover())
+newimg = testing.annotate()
 cv2.imshow('image', newimg)
 import time
+print('bequick')
 time.sleep(60.0)
 print('bequick')
+##cv2.waitKey(0)
+
+#=======
+#newimg = testing.annotate([0,0],[92,209,255])
+#cv2.imshow('image', newimg)
+#import time
+#time.sleep(60.0)
+#print('bequick')
 #cv2.waitKey(0)
+#>>>>>>> master
 cv2.destroyAllWindows()
 
