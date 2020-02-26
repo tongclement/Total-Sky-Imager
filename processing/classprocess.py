@@ -9,6 +9,7 @@ class Process:
         return self.imgpath
     def calc_ccover(self):
         import processing
+        self.cloudpixels = []
         processed = processing.imgprocess(self.imgpath) # list [ cloud cover, [[x1,y1],[x2,y2],...]
         self.ccover= processed[0]
         self.cloudpixels = processed[1] #reading the returned list from 1 to end
@@ -22,15 +23,18 @@ class Process:
         #from .annotate import annotate
         self.calc_ccover() #making sure this function is runned beforehand since data from this is needed
         print(self.calc_ccover())
-        print(self.cloudpixels)
+        #print(self.cloudpixels)
+        print('------')
+        #print(self.cloudpixels)
         import annotate
         #import moduletest
         image = cv2.imread(self.imgpath, 1)
         color = [155,99,255]
 
-        print('arriveds')
-        print(len(self.cloudpixels
-                  ))
+        print(len(self.cloudpixels))
+        import time
+        print('delaying for you to look at the length of self.cloudpixel')
+        time.sleep(1)
         imager = image
         for character in self.cloudpixels:
             print('working')
@@ -63,7 +67,7 @@ class Process:
 #testing=Process('asc_hksm_h12m50-cropped.jpg')
 
 #testing=Process('test_offical.jpg')
-testing = Process('TaiMoShanMixedLand.jpg')
+testing = Process('test_black.png')
 #testing2=Process('test_white2.jpg')
 #testing3=Process('test_black.png')
 #print(float(testing.calc_ccover())*100)
