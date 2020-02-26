@@ -8,6 +8,7 @@ def annotate(image,r,g,b,x,y):
     :param y:
     :return:
     '''
+
     print('hey I arrived')
     import cv2
     #image = cv2.imread(imagepth,1)
@@ -65,3 +66,15 @@ def annotate(image,r,g,b,x,y):
 # cv2.imshow('image',img)
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
+
+#old version master ignore
+    #import cv2
+    #image = cv2.imread(imagepth,1)
+    #image = cv2.line(image, ((x), (y)), (x, y), (r, g, b), 1)
+    #cv2.imshow('image', image)
+    #cv2.waitKey(0)
+    #cv2.destroyAllWindows()
+    #return image
+
+#annotate('test_white2.jpg',92,209,255,100,100)
+
