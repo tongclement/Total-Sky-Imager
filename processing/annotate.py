@@ -14,17 +14,17 @@ def annotate(image,r,g,b,x,y):
     endx = x+1
     endy = y+1
     imager = image
-    counting = 0
-    for a in range(x,endx):
-        counting+=1
-        print(counting)
-        for b in range(y,endy):
-            imager = cv2.line(imager, (a, b), (a, b), (b,g,r), 1)
-            print(image==imager)
+    #counting = 0
+    #for a in range(x,endx):
+     #   counting+=1
+      #  print(counting)
+       # for b in range(y,endy):
+    imager = cv2.line(imager, (x, y), (endx, endy), (b,g,r), 1)
+            #print(image==imager)
     #print('I arrived')
-        if counting%10 == 0:
-            cv2.imshow('image', imager)
-            cv2.destroyAllWindows()
+        #if counting%10 == 0:
+            #cv2.imshow('image', imager)
+            #cv2.destroyAllWindows()
     return imager
 
 #import cv2

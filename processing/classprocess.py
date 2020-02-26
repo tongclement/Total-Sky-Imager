@@ -27,7 +27,7 @@ class Process:
         import annotate
         #import moduletest
         image = cv2.imread(self.imgpath, 1)
-        color = [0,0,255]
+        color = [155,99,255]
 
         print('arriveds')
         print(len(self.cloudpixels
@@ -39,7 +39,7 @@ class Process:
             print(x)
             y = character[1]
             imager = annotate.annotate(imager, color[0], color[1], color[2], x, y)
-            print(image == imager)
+            #print(image == imager)
         #for x in range(0, 100):
          #   for y in range(0, 100):
                 #testing.annotate([x, y], [92, 209, 255])
@@ -52,7 +52,7 @@ class Process:
 
 #testing=Process('asc_hksm_h12m50-cropped.jpg')
 #testing=Process('test_offical.jpg')
-testing = Process('test_white2.jpg')
+testing = Process('TaiMoShanMixedLand.jpg')
 #testing2=Process('test_white2.jpg')
 #testing3=Process('test_black.png')
 #print(float(testing.calc_ccover())*100)
@@ -67,8 +67,8 @@ newimg = testing.annotate()
 cv2.imshow('image', newimg)
 import time
 print('bequick')
-time.sleep(60.0)
+#time.sleep(60.0)
 print('bequick')
-##cv2.waitKey(0)
+cv2.waitKey(0)
 cv2.destroyAllWindows()
 

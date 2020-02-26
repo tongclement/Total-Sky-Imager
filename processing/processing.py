@@ -5,18 +5,22 @@ def imgprocess(imgpath):
     returns:
     cloudcover (float from 0-1)
     '''
-    mask=[150,150,150]
+    mask=[180,180,180]
     mask1=[]
     masked=0 #pixels
     import cv2
     img=cv2.imread(imgpath)
     # from matplotlib import pyplot as plt
     # import numpy as np
-    for x in range(img.shape[0]):
-        for y in range(img.shape[1]):
+    print(img.shape[0])
+    print(img.shape[1])
+    for x in range(img.shape[1]):
+        for y in range(img.shape[0]):
             currentloop=0
             for z in range(img.shape[2]):
-                if (img[x,y,z]>=mask[z]):
+                if (img[y,x,z]>=mask[z]):
+                    #if y>391:
+                        #print('yes failed ------------------------------------------------')
                     currentloop+=1
                 else:
                     currentloop=0; break
