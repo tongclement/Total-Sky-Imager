@@ -25,7 +25,6 @@ class Process:
         :return: None
         '''
         #from .annotate import annotate
-
         self.calc_ccover() #making sure this function is runned beforehand since data from this is needed
         import annotate
         image = cv2.imread(self.imgpath, 1)
@@ -50,12 +49,27 @@ class Process:
         mimage = actualannoate(self.heavycloudpixels,mimage,annotatecolorheavy) #use mutated image = mimage
         cv2.imshow('image',mimage)
         print('ended')
+
         return mimage
+
+
+       # import annotate
+        #import moduletest
+       # image = cv2.imread(self.imgpath, 1)
+       # color = [92,209,255]
+       # for x in range(0, 100):
+       #     for y in range(0, 100):
+       #         #testing.annotate([x, y], [92, 209, 255])
+       #          image = annotate.annotate(image, color[0], color[1], color[2], x, y)
+       # return image
+
+
 
 
 
 
 #testing=Process('asc_hksm_h12m50-cropped.jpg')
+
 #testing=Process('test_offical.jpg')
 testing = Process('TaiMoShanMixedLand.jpg')
 #testing2=Process('test_white2.jpg')
