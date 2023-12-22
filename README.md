@@ -12,6 +12,7 @@ We managed to develop a computer vision algorithm that detects the sky, clouds, 
 ![LQz_astrotest1](https://github.com/tongclement/Total-Sky-Imager/assets/47275378/566f662b-a965-436a-ab45-ae9fc5cacc36)
 ![Blueskyvswhiteclouds](https://github.com/tongclement/Total-Sky-Imager/assets/47275378/003819fc-49e1-40b3-b942-1abc5f49e956)
 
+Competition Link: https://i.cs.hku.hk/~sky/SkyImager-English.php
 
  
 
