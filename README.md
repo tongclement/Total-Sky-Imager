@@ -1,4 +1,4 @@
-Total Sky Imager - Team Harrow (Team Name: "Better Name Pending")
+## Total Sky Imager - Team Harrow (Team Name: "Better Name Pending") <br/>
 A team of 4 students competing in the HKU Computer Science Department x Hong Kong Observatory Total Sky Imager Competition to design a self contained device that captures, analyizes, and outputs the cloud cover in oktas. 
 
 Team Members: 
