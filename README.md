@@ -12,7 +12,8 @@ We managed to develop a computer vision algorithm that detects the sky, clouds, 
 
 Competition Link: https://i.cs.hku.hk/~sky/SkyImager-English.php
 
-Sample Segmentation Results Using RGB signatures
+Sample Segmentation Results Using RGB signatures <br/>
+(There are limitations to this approach (implemented in 2019). In 2025, new, computationally efficient machine learning image segmentation algorithms are avilable - eg: YOLO v8-seg)
 <p align="center">
   <img src="https://github.com/tongclement/Total-Sky-Imager/assets/47275378/566f662b-a965-436a-ab45-ae9fc5cacc36" alt="LQz_astrotest1" style="width: 300px; margin-right: 10px;">
   <img src="https://github.com/user-attachments/assets/b5e148b5-7ef7-4717-95cc-e2e8abff6089" alt="astrotest-seg" style="width: 300px;">
